@@ -1,6 +1,6 @@
 {
   "name": "taskdoc",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Taskdoc is a Markdown based task documantation language.",
   "keywords": [
     "taskdoc",
@@ -9,7 +9,10 @@
     "note",
     "markdown"
   ],
-  "repository": "ssh://git@github.com:Andifeind/atom-taskdoc.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Andifeind/atom-taskdoc.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
