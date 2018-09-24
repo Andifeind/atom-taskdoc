@@ -1,0 +1,121 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.syntax--source.syntax--td {
+  .syntax--item {
+    &.syntax--success:before {
+      content: '✔';
+      background-color: #00830a;
+      color: #fff;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100%;
+      width: 1.2em;
+      height: 1.2em;
+      line-height: 1.2em;
+      position: absolute;
+    }
+
+    &.syntax--failed:before {
+      content: '✘';
+      background-color: #b60000;
+      color: #fff;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100%;
+      width: 1.2em;
+      height: 1.2em;
+      line-height: 1.2em;
+      position: absolute;
+    }
+
+    &.syntax--blocked:before {
+      content: '❗';
+      background-color: #444;
+      color: #fff;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100%;
+      width: 1.2em;
+      height: 1.2em;
+      line-height: 1.2em;
+      position: absolute;
+    }
+
+    &.syntax--new:before {
+      content: '➜';
+      background-color: #0085ff;
+      color: #fff;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100%;
+      width: 1.2em;
+      height: 1.2em;
+      line-height: 1.2em;
+      position: absolute;
+      overflow: hidden
+    }
+
+    &.syntax--incomplete:before {
+      content: '?';
+      background-color: #ffa800;
+      color: #fff;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100%;
+      width: 1.2em;
+      height: 1.2em;
+      line-height: 1.2em;
+      position: absolute;
+      overflow: hidden
+    }
+
+    &.syntax--draft:before {
+      content: '#';
+      background-color: #3c434a;
+      color: #fff;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100%;
+      width: 1.2em;
+      height: 1.2em;
+      line-height: 1.2em;
+      position: absolute;
+      overflow: hidden
+    }
+
+    &.syntax--progress:before {
+      content: '⏲';
+      background-color: #2bb3ff;
+      color: #fff;
+      text-align: center;
+      display: inline-block;
+      border-radius: 100%;
+      width: 1.2em;
+      height: 1.2em;
+      line-height: 1.2em;
+      position: absolute;
+      overflow: hidden
+    }
+
+    display: inline-block;
+    color: transparent;
+    position: relative;
+    width: 1.2em;
+  }
+
+  .syntax--punctuation {
+    &.syntax--heading {
+      font-weight: bold;
+      color: #0085ff;
+    }
+  }
+
+  .syntax--heading {
+    font-weight: bold;
+    color: #d3e0e8;
+  }
+}
