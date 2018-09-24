@@ -9,7 +9,7 @@
     "note",
     "markdown"
   ],
-  "repository": "git@github.com:Andifeind/atom-taskdoc.git",
+  "repository": "ssh://git@github.com:Andifeind/atom-taskdoc.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
